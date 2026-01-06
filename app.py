@@ -6,8 +6,8 @@ import json
 
 # --- 1. KẾT NỐI SUPABASE ---
 try:
-    SUPABASE_URL = st.secrets["https://yjajsgtcwkojdijjpvfi.supabase.co"]
-    SUPABASE_KEY = st.secrets["sb_publishable_Zyzfw15TFnUX17PTc1C7Ig_uSWYw0Y2"]
+SUPABASE_URL = st.secrets["SUPABASE_URL"]
+SUPABASE_KEY = st.secrets["SUPABASE_KEY"]
 except:
     st.error("Chưa cấu hình Secrets!")
     st.stop()
